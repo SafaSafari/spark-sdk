@@ -101,7 +101,7 @@ pub enum Command {
 
         /// Optional expiry time for the invoice in seconds from now. Used for spark invoice and bolt11 invoice.
         #[arg(short = 'e', long)]
-        expiry_secs: Option<u64>,
+        expiry_secs: Option<u32>,
 
         /// Optional sender public key. Only used if the payment method is a spark invoice.
         #[arg(short = 's', long)]

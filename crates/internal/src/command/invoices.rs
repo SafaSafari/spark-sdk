@@ -21,7 +21,7 @@ pub enum InvoicesCommand {
         token_identifier: Option<String>,
         #[clap(short, long)]
         /// The expiry time for the invoice in seconds from now.
-        expiry_secs: Option<u64>,
+        expiry_secs: Option<u32>,
         #[clap(short, long)]
         /// The description for the invoice.
         description: Option<String>,

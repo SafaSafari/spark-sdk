@@ -638,7 +638,7 @@ pub enum ReceivePaymentMethod {
         description: String,
         amount_sats: Option<u64>,
         /// The expiry time of the invoice in seconds
-        expiry_secs: Option<u64>,
+        expiry_secs: Option<u32>,
     },
 }
 
